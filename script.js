@@ -18,7 +18,7 @@ function createTable() {
     table.innerHTML = '';
 
     // Create the table header row with column names
-    var headerRow = table.insertRow();
+    // var headerRow = table.insertRow();
    
 
     // Create the specified number of rows with cells
