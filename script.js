@@ -19,17 +19,14 @@ function createTable() {
 
     // Create the table header row with column names
     var headerRow = table.insertRow();
-    for (var j = 0; j < colCount; j++) {
-      var headerCell = headerRow.insertCell(j);
-      headerCell.innerHTML = "Column " + (j + 1);
-    }
+   
 
     // Create the specified number of rows with cells
     for (var i = 0; i < rowCount; i++) {
       var row = table.insertRow();
       for (var j = 0; j < colCount; j++) {
         var cell = row.insertCell(j);
-        cell.innerHTML = "Row " + (i + 1) + ", Col " + (j + 1);
+        cell.innerHTML = "Row " + (i) + " Column " + (j );
       }
     }
 }
