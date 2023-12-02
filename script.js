@@ -26,7 +26,7 @@ function createTable() {
       var row = table.insertRow();
       for (var j = 0; j < colCount; j++) {
         var cell = row.insertCell(j);
-        cell.innerHTML = "Row " + (i) + " Column " + (j );
+        cell.innerHTML = `Row-${i} Column-${j}`;
       }
     }
 }
