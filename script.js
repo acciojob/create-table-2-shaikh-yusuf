@@ -2,8 +2,8 @@ function createTable() {
     //Write your code here
       
       // Prompt for the number of rows
-    var rowCount = prompt("Input number of rows:");
-    var colCount = prompt("Input number of columns:");
+    var rowCount = prompt("Input number of rows");
+    var colCount = prompt("Input number of columns");
 
     // Validate input
     if (!rowCount || isNaN(rowCount) || rowCount <= 0 || !colCount || isNaN(colCount) || colCount <= 0) {
